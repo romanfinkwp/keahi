@@ -1,0 +1,115 @@
+.keahi-about-wrap h1 {
+	font-size: 28px;
+	font-weight: 700;
+	margin-bottom: 24px;
+}
+
+.keahi-version {
+	font-size: 14px;
+	font-weight: 400;
+	color: #666;
+	vertical-align: middle;
+}
+
+.keahi-about-columns {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 24px;
+	max-width: 900px;
+}
+
+@media (max-width: 782px) {
+	.keahi-about-columns {
+		grid-template-columns: 1fr;
+	}
+}
+
+.keahi-about-card {
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	padding: 28px;
+}
+
+.keahi-about-author {
+	text-align: center;
+}
+
+.keahi-author-photo {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-bottom: 16px;
+}
+
+.keahi-about-author h2 {
+	font-size: 20px;
+	margin: 0 0 8px;
+}
+
+.keahi-about-author p {
+	color: #555;
+	margin: 0 0 20px;
+}
+
+.keahi-about-links {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+}
+
+.keahi-about-links li {
+	padding: 8px 0;
+	border-top: 1px solid #eee;
+}
+
+.keahi-about-links li:last-child {
+	border-bottom: 1px solid #eee;
+}
+
+.keahi-about-links a {
+	text-decoration: none;
+}
+
+.keahi-about-card h2 {
+	font-size: 20px;
+	margin: 0 0 12px;
+}
+
+.keahi-about-card p {
+	color: #555;
+	margin: 0 0 16px;
+	line-height: 1.6;
+}
+
+.keahi-about-pro p:last-of-type {
+	margin-bottom: 24px;
+}
+
+.keahi-about-btn {
+	display: inline-block;
+	background-color: #111;
+	color: #fff !important;
+	padding: 12px 24px;
+	text-decoration: none !important;
+	border-radius: 4px;
+	font-weight: 600;
+	transition: background-color 0.2s;
+}
+
+.keahi-about-btn:hover {
+	background-color: #333;
+}
+
+.keahi-about-btn-outline {
+	background-color: #fff !important;
+	color: #111 !important;
+	border: 2px solid #111;
+}
+
+.keahi-about-btn-outline:hover {
+	background-color: #111 !important;
+	color: #fff !important;
+}
